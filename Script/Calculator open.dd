@@ -1,0 +1,8 @@
+REM Example Standalone Modifier Key Keystroke Injection for Windows
+ATTACKMODE HID STORAGE
+DELAY 2000
+INJECT_MOD WINDOWS
+DELAY 2000
+STRING calc
+DELAY 2000
+ENTER
